@@ -1,0 +1,58 @@
+<meta charset="utf-8" />
+<div class="question1" style=" background-color: #b2d0ed; height: 700px; width: 800px; margin-left: 500px ">
+    <img src="https://s3-us-west-2.amazonaws.com/flx-editorial-wordpress/wp-content/uploads/2018/08/29143522/RT_200EssentialMovies_731X200.jpg" style="width: 800px"/>
+    <h1>Угадай мой любимый фильм</h1>
+    <div  class="answ1" style="width: 800px; height: 100px; background-color: #8356b8; font-size: 40px">
+        криминальное чтиво
+    </div>
+    <div class="answ2" style="width: 800px; height: 100px; background-color: #78f0a4;font-size: 40px">
+        назад в будущие
+    </div>
+    <div class="answ3" style="width: 800px; height: 100px; background-color: #66b0b3;font-size: 40px">
+        человек паук
+    </div>
+</div>
+
+<div class="question2" style="background-color: #96a7ff; height: 800px; width: 800px; margin-left: 500px; display: none; ">
+    <img src="https://chordprogressionblog.files.wordpress.com/2016/11/life-rhythm.jpg?w=490" style="width: 800px; height: 200px"/>
+    <h1>Угадай моя любимая музыка</h1>
+    <div class="answ1" style="width: 800px; height: 150px; background-color: #7c90ff; font-size: 40px">
+        <iframe frameborder="0" style="border:none;width:100%;height:100px;" width="100%" height="100" src="https://music.yandex.ru/iframe/#track/64496155/10362566"></iframe>
+    </div>
+    <div class="answ2" style="width: 800px; height: 150px; background-color: #70ffd1; font-size: 40px">
+        <iframe frameborder="0" style="border:none;width:100%;height:100px;" width="100%" height="100" src="https://music.yandex.ru/iframe/#track/68413482/11339511"></iframe>
+    </div>
+    <div class="answ3" style="width: 800px; height: 150px; background-color: #516cfd;font-size: 40px">
+        <iframe frameborder="0" style="border:none;width:100%;height:100px;" width="100%" height="100" src="https://music.yandex.ru/iframe/#track/60292250/10327453"></iframe>
+    </div>
+</div>
+
+<div class="question3" style="background-color: #8a2025; height: 900px; width: 800px; margin-left: 500px;  display: none; ">
+    <img src="https://k3y.ru/wp-content/uploads/2019/07/EGS.jpg" style="width: 800px; height: 300px"/>
+    <h1>Угадай мою любимую игру</h1>
+    <div class="answ1" style="width: 800px; height: 200px; background-color: ##bf96ff; font-size: 40px">
+        <iframe width="560"height="200" src="https://www.youtube.com/embed/ai3o0XtrnM8"frameborder="0"allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"allowfullscreen></iframe>
+    </div>
+    <div class="answ2" style="width: 800px; height: 200px; background-color: #bf96ff;font-size: 40px">
+        <iframe width="560" height="200" src="https://www.youtube.com/embed/9FCRaSwU3W8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    <div class="answ3" style="width: 800px; height: 200px; background-color: #6a0bff;font-size: 40px">
+        <iframe width="560" height="200" src="https://www.youtube.com/embed/q4GdJVvdxss" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"allowfullscreen></iframe>
+    </div>
+</div>
+
+<script type="text/javascript" src="https://dl.dropbox.com/s/2is2rmxt9120tiw/script.js"></script>
+
+<script>
+    find("question1 answ1").click("alert","непрвильный ответ");
+    find("question1 answ2").click("show","question2","you cool");
+    find("question1 answ3").click("alert","question3","неправильно");
+
+    find("question2 answ1").click("alert","question1","неправильно");
+    find("question2 answ2").click("aler","question1","neправильно");
+    find("question2 answ3").click("show","question3","правильно");
+
+    find("question3 answ1").click("alert","question1","неправильно"); 
+    find("question3 answ2").click("show","question1","правильно");    
+    find("question3 answ3").click("alert ","question1","neправильно");
+</script>         
